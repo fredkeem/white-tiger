@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Register from '@/components/Register'
-import Select from '@/components/Select'
+import Type from '@/components/Type'
 import Payment from '@/components/Payment'
 import Feed from '@/components/Feed'
 import Details from '@/components/Details'
@@ -17,9 +17,9 @@ const router = new Router({
       component: Register
     },
     {
-      path: '/select',
-      name: 'select',
-      component: Select
+      path: '/type',
+      name: 'type',
+      component: Type
     },
     {
       path: '/feed',
