@@ -148,7 +148,7 @@
   };
   </script>
   
-  <style>
+  <style scoped>
 #nav{
   height: 100px;
   background-color: #174580
@@ -156,6 +156,13 @@
 /* h3 {
   margin: 40px 0 0;
 } */
+.backBtn{
+  position: absolute; 
+  left: 5px; 
+  top: 1px; 
+  width: 36px; 
+  height:36px;
+}
 .no {
   list-style-type: none;
   display: flex;
@@ -283,6 +290,10 @@ p.bg-color{
   width: 100%;
   display: block;
   margin: 0 auto;
+}
+.theme--light.v-footer{
+  background-color: #1c69af;
+  color: #fff;
 }
   </style>
   
