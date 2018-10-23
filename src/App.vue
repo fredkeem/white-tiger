@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <Register msg="Welcome to Your Vue.js App"/>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Register from './components/Register.vue';
+
 import axios from 'axios'
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
-    Register,
   },
 };
 </script>
