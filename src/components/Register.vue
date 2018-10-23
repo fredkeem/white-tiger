@@ -1,7 +1,7 @@
 <template>
   <v-app id="inspire">
     <v-toolbar
-      style="max-width: 100%; display: block; box-shadow: 0px 10px 10px rgba(0,0,0,0.2);"
+      style="max-width: 100%; display: block;"
       color="#1967AE"
       dark
       justify-center
@@ -14,6 +14,9 @@
         style="display: block; margin: 0 auto;"
         class="title"
       >
+      <p class="backBtn">
+        <img style="width: 100%;" src="../assets/img/btn_back_white.png" alt="">
+      </p>
         정보 등록
       </v-toolbar-title>
     </v-toolbar>
@@ -21,7 +24,7 @@
     <v-content style="padding: 0;">
       <section style="background-color: #174580;">
         <v-parallax height="100%" >
-          <v-layout row align-center justify-center d-flex style="font-size: 12px;">
+          <v-layout row align-center justify-center d-flex style="font-size: 14px;">
             <!-- <div class="white--text mb-3 text-xs-center">
               <p id="toolbar-btn" ><img src="../assets/img/ic_done_skyblue.png"/></p>
               <span class="tx-box">상품확인</span>
@@ -190,6 +193,13 @@ li {
 a {
   color: #42b983;
 }
+.backBtn{
+  position: absolute; 
+  left: 5px; 
+  top: 1px; 
+  width: 36px; 
+  height:36px;
+}
 #toolbar-btn {
   width: 40px; 
   height: 40px;
@@ -261,7 +271,7 @@ p.bg-color{
   color: #1c69af;
   font-weight: 600;
   font-size: 12px;
-  margin: 5px auto;
+  /* margin: 5px auto; */
 }
 .no li .to2{
   color: #fff;
@@ -270,8 +280,6 @@ p.bg-color{
   width: 100%;
   display: block;
   margin: 0 auto;
-  position: fixed;
-  bottom: 0;
 }
 .v-text-field{
   margin: 18px 0;
