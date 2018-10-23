@@ -136,10 +136,10 @@
   
   
   export default {
-    name: 'select',
+    name: 'type',
     data () {
         return {
-
+            valid: true,
         }
     },
     methods: {
