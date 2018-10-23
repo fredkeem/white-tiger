@@ -122,7 +122,7 @@ import api from '@/api/test'
 
 
 export default {
-  name: 'hello',
+  name: 'register',
   data () {
     return {
       valid: true,
